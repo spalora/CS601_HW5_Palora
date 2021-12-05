@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Degrees</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="hideTable()">
+    <h1>Student Academic Details</h1>
+    <main id="container">
+    <p id="name">Seema Palora</p>
+    <!--Button which invoke the function to fetch the JSON data-->
+    <button id="display" onclick="displayDegree()"> Display Degrees</button>
+
+    <!--Degree data will be displayed as table-->
+    <table  id="degreeTable">
+        <tr >
+          <th>School</th>
+          <th>Program</th>
+          <th>Type</th>
+          <th>Year</th>  
+        </tr>
+      </table>
+    </main>
+</body>
+</html>

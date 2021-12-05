@@ -1,0 +1,22 @@
+{
+	"degrees": [
+        {
+			"school": "GPU",
+			"program": "PCMB",
+			"type": "Pre University Course",
+			"year": 2005
+		},
+        {
+			"school": "MCE,VTU",
+			"program": "E&C",
+			"type": "BE",
+			"year": 2009
+		},
+		{
+			"school": "Boston University",
+			"program": "Software Development",
+			"type": "MS",
+			"year": 2022
+		}
+	]
+}
